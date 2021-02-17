@@ -5,6 +5,7 @@ class person {
     var cpf: String = "123.456.789-00"
         private set
 
+constructor()
 
     fun infopessoa () = "$name e $cpf"
 
