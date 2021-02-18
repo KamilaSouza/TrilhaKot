@@ -1,7 +1,7 @@
 package Curso
 
-enum class ClienteTipo (descricao:String){
-    PF ("PessoaFisica"),
-    PJ ("PessoaJuridica");
+enum class ClienteTipo (val descricao:String){
+    PF ("Pessoa Fisica"),
+    PJ ("Pessoa Juridica");
 
 }
