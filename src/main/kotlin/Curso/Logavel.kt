@@ -1,0 +1,4 @@
+package Curso
+
+interface Logavel {
+}
