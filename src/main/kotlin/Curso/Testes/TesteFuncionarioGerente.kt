@@ -11,5 +11,5 @@ fun main (){
     val maria = Gerente ("Kamila Souza",   "123.456.789-10", 4000.0, "senha123")
     ImprimeRelatorioFuncionario.imprime(maria)
 
-
+TesteAutenticacao().autentica(maria)
 }
